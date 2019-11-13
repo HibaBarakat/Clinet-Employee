@@ -1,0 +1,75 @@
+:root {
+    --shadow: 0 1px 5px rgba(104,104,104,0.8);
+    --dark: #333;
+    --light: #fff;
+    --labelFontSize: 20px;
+    --HeaderFontSize: 50px;
+    --inputFontSize: 18px;
+}
+
+* {
+    /* margin: 0px;
+    padding: 0px; */
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image:  url(images/b2.jpeg);
+    margin: 0px;
+    line-height: 1.4;
+}
+
+h1 {
+    color: var(--light);
+    font-size: var(--HeaderFontSize);
+    font-weight: lighter;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+
+}
+
+.col-md-5 {
+    background: rgba(0,0,0, 0.7);
+    margin-top: 10rem;
+
+}
+.label {
+    color: var(--light);
+    font-size: var(--labelFontSize);
+    font-weight: normal;
+
+}
+
+.input-group-addon, .form-control{
+    background: transparent !important;
+    border-radius: 0px !important;
+    border: 0px !important;
+    border-bottom: 1px solid grey !important;
+    font-size: var(--inputFontSize);
+    color: var(--light);
+}
+
+.grey-icons{
+    color: grey;
+    font-weight: lighter;
+    margin-right: 0.9rem;
+}
+
+.form-control {
+    padding: 1.1rem;
+}
+
+.btn{
+width: 100%;
+margin-top: 1.5rem;
+margin-bottom: 2rem;
+
+}
