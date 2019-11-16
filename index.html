@@ -14,27 +14,33 @@
     <div class="container">
         <div class="row d-flex">
             <div class="col-md-5">
-                <form action="" class="registration-form">
+                    <!-- onsubmit="signUpForm()" -->
+                <form action="#" class="registration-form">
                     <h1 class=" text center display-4">Sign Up</h1>
-                    <label for="" class="label control-label">Name</label>
+                    <label for="" class="label control-label" >Name</label>
                     <div class="input-group input-group-sm mb-3">
                         <span class="input-group-addon"><i class="far fa-user grey-icons"></i></span>
-                        <input type="text" class="form-control" placeholder="Name" name="name">
+                        <input type="text" class="form-control" placeholder="Name" name="name" required>
+
                     </div>
+                    <p id="error-name"></p>
                     <label for="" class="label control-label">E-mail</label>
                     <div class="input-group input-group-sm mb-3">
                         <span class="input-group-addon"><i class="far fa-envelope-open grey-icons"></i></span>
-                        <input type="mail" class="form-control" placeholder="E-mail" name="mail">
-                    </div>  
+                        <input type="mail" class="form-control" placeholder="E-mail" name="mail" required>
+                    </div>
+                    <p id="error-email"></p>
                     <label for="" class="label control-label">Contact NO.</label>
                     <div class="input-group input-group-sm mb-3">
                         <span class="input-group-addon"><i class="fas fa-phone grey-icons"></i></span>
-                        <input type="mail" class="form-control" placeholder="Phone" name="phone">
+                        <input type="tel" class="form-control" placeholder="Phone" name="phone" required>
                     </div>
-                    <a href="#"><button class="btn btn-secondary btn-">SIGN UP</button></a>
+                    <p id="error-phone"></p>
+                    <input type="submit" id="submitButton" class="btn btn-secondary btn-lg" name="submit" value="Sign Up!" >
                 </form>
             </div>
         </div>
     </div>
 </body>
+<script src="register.js"></script>
 </html>

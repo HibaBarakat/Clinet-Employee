@@ -8,8 +8,6 @@
 }
 
 * {
-    /* margin: 0px;
-    padding: 0px; */
     font-family: 'Montserrat', sans-serif;
 }
 html {
@@ -32,7 +30,6 @@ h1 {
 .row {
     display: flex;
     justify-content: flex-end;
-    /* align-items: center; */
 
 }
 
@@ -64,6 +61,7 @@ h1 {
 }
 
 .form-control {
+    color: var(--light) !important;
     padding: 1.1rem;
 }
 
@@ -71,5 +69,4 @@ h1 {
 width: 100%;
 margin-top: 1.5rem;
 margin-bottom: 2rem;
-
 }
