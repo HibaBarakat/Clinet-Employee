@@ -1,0 +1,45 @@
+:root {
+    --shadow: 0 1px 5px rgba(104,104,104,0.8);
+    --dark: #333;
+    --light: #fff;
+    --labelFontSize: 20px;
+    --HeaderFontSize: 50px;
+    --inputFontSize: 18px;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image:  url('../images/c2.jpeg');
+    margin: 0px;
+    line-height: 1.4;
+}
+
+h1 {
+    color: var(--light);
+    font-size: var(--HeaderFontSize);
+    font-weight: lighter;
+}
+
+.helloCard {
+    
+    margin-top: 2rem;
+
+}
+
+.card {
+    background: rgba(0,0,0, 0.7) !important;
+    color: var(--light) !important;
+}
+.message-h5 {
+    color: var(--dark);
+}
+.textarea {
+    width: 100%;
+}
